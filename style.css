@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+#map {
+  height: 100vh;
+  width: 100%;
+}
+
+#clearMarkersBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1000; /* Important: Make sure it's above the map layer */
+  padding: 8px 12px;
+  background: #ff5c5c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+/* Style the popup form */
+.popup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-family: Arial, sans-serif;
+  width: 200px;
+}
+
+.popup-form label {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.popup-form input,
+.popup-form select {
+  width: 100%;
+  padding: 6px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.popup-form button {
+  margin-top: 8px;
+  background-color: #007bff;
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.popup-form button:hover {
+  background-color: #0056b3;
+}
+
+
+.leaflet-popup-content button {
+  display: inline-block !important;
+  
+  padding: 6px 10px;
+  cursor: pointer;
+  font-size: 10px;
+}
+
