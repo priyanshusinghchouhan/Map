@@ -29,6 +29,5 @@ An intuitive and user-friendly map application that allows users to click anywhe
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/interactive-map-app.git
-2. open index.html
-
+   git clone https://github.com/priyanshusinghchouhan/Map.git
+2. open index.html and Go Live
